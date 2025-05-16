@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Persönliche Informationen von Lennox Herzig</title>
+  <style>
+    /* Farbdefinitionen */
+    :root {
+      --bg: #000000;
+      --card-bg: #111111;
+      --accent: #FFD600;
+      --text: #e0e0e0;
+      --subtext: #bbbbbb;
+    }
+
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    .card {
+      width: 100%;
+      max-width: 600px;
+      background-color: var(--card-bg);
+      border-left: 6px solid var(--accent);
+      border-radius: 8px;
+      padding: 30px 40px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+      margin-bottom: 30px;
+    }
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: var(--accent);
+      border-bottom: 2px solid #333;
+      padding-bottom: 8px;
+    }
+    ul {
+      list-style: none;
+    }
+    .card li {
+      display: flex;
+      margin-bottom: 14px;
+    }
+    .card li:last-child {
+      margin-bottom: 0;
+    }
+    .label {
+      flex: 0 0 160px;
+      font-weight: bold;
+      color: var(--subtext);
+    }
+    .value {
+      flex: 1;
+      word-break: break-word;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      font-size: 0.9rem;
+      color: #777777;
+      text-align: center;
+      padding: 10px 0;
+    }
+    @media (max-width: 500px) {
+      .card {
+        padding: 20px;
+      }
+      .label {
+        flex: 0 0 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Allgemeine Informationen</h2>
+    <ul>
+      <li><span class="label">Name:</span><span class="value">Lennox Herzig</span></li>
+      <li><span class="label">Alter:</span><span class="value">17</span></li>
+      <li><span class="label">Geburtsort:</span><span class="value">Deutschland</span></li>
+      <li><span class="label">Adresse:</span><span class="value">Goethestraße, 15907 Lübben (Spreewald)</span></li>
+      <li><span class="label">Ethnie:</span><span class="value">Weiß / Kaukasisch</span></li>
+      <li><span class="label">Sexualität:</span><span class="value">Heterosexuell</span></li>
+      <li><span class="label">Muttersprache:</span><span class="value">Deutsch</span></li>
+      <li><span class="label">Religion:</span><span class="value">Keine</span></li>
+      <li><span class="label">Größe:</span><span class="value">1,68 m (5'6")</span></li>
+      <li><span class="label">Augenfarbe:</span><span class="value">Blau</span></li>
+      <li><span class="label">Gesichtsform:</span><span class="value">Rund</span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Telefon & Arbeitgeber</h2>
+    <ul>
+      <li><span class="label">Telefon:</span><span class="value">+49 1522 7970049</span></li>
+      <li><span class="label">Ehem. Arbeitgeber:</span><span class="value"><a href="https://www.lidl.de/f/luebben/berliner-chaussee-23.html" target="_blank">Lidl</a> ca. 6 Min entfernt – Angabe nicht garantiert)</span></li>
+      <li><span class="label">Status:</span><span class="value">Aktiv</span></li>
+      <li><span class="label">Vorwahl:</span><span class="value">1522</span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>E-Mail-Konten</h2>
+    <ul>
+      <li><span class="label">herziglennox885@gmail.com</span><span class="value">mHqQ8Mdk4e!WxNn</span></li>
+      <li><span class="label">herziglennox604@gmail.com</span><span class="value">Lerzignox_12</span></li>
+      <li><span class="label">lennoxherzig17@gmail.com</span><span class="value">Lerzignox_124</span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Soziale Netzwerke</h2>
+    <ul>
+      <li><span class="label">Discord:</span><span class="value"><a href="https://discord.com/users/1250849419427975301" target="_blank">1250849419427975301</a></span></li>
+      <li><span class="label">Snapchat:</span><span class="value"><a href="https://snapchat.com/add/xcc365" target="_blank">@xcc365</a></span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Freunde</h2>
+    <ul>
+      <li><span class="label">Discord:</span><span class="value"><a href="https://discord.com/users/1366035289608290376" target="_blank">1366035289608290376</a></span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>IP-Informationen</h2>
+    <ul>
+      <li><span class="label">IP-Adresse:</span><span class="value">2.203.83.13</span></li>
+      <li><span class="label">Organisation:</span><span class="value">Vodafone D2 GmbH</span></li>
+      <li><span class="label">Land:</span><span class="value">Deutschland (DE)</span></li>
+      <li><span class="label">DDOS-Schutz:</span><span class="value">Keine</span></li>
+    </ul>
+  </div>
+
+  <footer>doxed by tapetenputzer</footer>
+</body>
+</html>
